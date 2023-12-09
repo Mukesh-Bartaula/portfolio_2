@@ -1,38 +1,173 @@
 #navbar {
     position: sticky;
+    display: flex;
+    width: 100%;
     z-index: 1;
     top: 0;
     margin-bottom: 40px;
 }
 
-.navbar img {
-    height: 50px;
+@media only screen and (min-width: 991px) {
+    .bar_logo {
+        visibility: hidden;
+
+    }
+
+    .mode {
+        width: 200px;
+    }
+
+    .form-check-label {
+        font-size: 14px;
+        width: 100px;
+    }
+
+    .profile_container {
+        margin: auto;
+        border: 1px solid rgb(58, 45, 45);
+        box-shadow: 2px 2px 10px;
+        border-radius: 15px;
+        min-height: 100vh;
+        max-height: fit-content;
+        width: 600px;
+    }
+
+    .head {
+        height: 170px;
+    }
+
+    .container-fluid {
+        justify-content: space-between;
+    }
+
+    #carouselExampleIndicators {
+        display: flex;
+        height: 40%;
+    }
+
+    .custom-center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        /* Ensures the caption takes the full height of the parent carousel item. */
+    }
+
+
+
+    .project_body p {
+        margin: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+
+    /* footer */
+    .card {
+        margin-top: 40px;
+    }
+
+    .card-body {
+        height: 160px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card-text {
+        height: 100%;
+        width: 600px;
+        margin: auto;
+        font-size: 20px;
+    }
+
+    #social_media {
+        width: 400px;
+    }
+
+    #social_media i {
+        margin: 0 10px;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .bar_logo {
+        padding: 20px;
+        font-size: 20px;
+
+    }
+
+    .profile_container {
+        margin: auto;
+        border: 1px solid rgb(58, 45, 45);
+        box-shadow: 2px 2px 10px;
+        border-radius: 15px;
+        min-height: 100vh;
+
+    }
+
+    .photo {
+        display: flex;
+        width: 100px;
+        height: 100px;
+    }
+
+    #profile_pic {
+        width: 100%;
+        height: 100%;
+
+        border-radius: 50%;
+        border: 2px solid rgb(94, 81, 81);
+        box-shadow: 1px 1px 3px;
+    }
+
+    .card {
+        display: flex;
+
+    }
+
+    .card-text {
+        display: block;
+    }
+
+    .social_media {
+        display: grid;
+    }
+
+    .name {
+        margin-left: 120px;
+    }
+
+
 }
 
 .profile_container {
-    margin: auto;
-    border: 1px solid rgb(58, 45, 45);
-    box-shadow: 2px 2px 10px;
-    border-radius: 15px;
-    min-height: 100vh;
     overflow: hidden;
-    max-height: fit-content;
-    width: 600px;
-}
-
-.head {
-    height: 170px;
 }
 
 .photo_bg {
     display: flex;
     height: 170px;
-    width: auto;
+    width: 100%;
     background-image: url('img/bg.webp');
     background-size: cover;
     /* Adjust to your preference */
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.head .photo_bg p {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    size: 20px;
+    margin: auto;
+}
+
+.photo #profile_pic {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
 }
 
 .photo {
@@ -53,17 +188,6 @@
     margin: auto;
 }
 
-
-
-.head .photo_bg p {
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    size: 20px;
-    margin: auto;
-}
-
-
-
 .description {
     width: 100%;
     height: auto;
@@ -73,60 +197,8 @@
     line-height: 1.5;
 }
 
-.container-fluid {
-    justify-content: space-between;
-}
-
-#carouselExampleIndicators {
-    display: flex;
-    height: 40%;
-}
-
-.custom-center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    /* Ensures the caption takes the full height of the parent carousel item. */
-}
-
 /*projects.php*/
 .project_body {
     display: flex;
     min-height: 100vh;
-}
-
-.project_body p {
-    margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-}
-
-/* footer */
-.card {
-    margin-top: 40px;
-}
-
-.card-body {
-    height: 160px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.card-text {
-    height: 100%;
-    width: 600px;
-    margin: auto;
-    font-size: 20px;
-}
-
-#social_media {
-    width: 400px;
-}
-
-#social_media i {
-    margin: 0 10px;
-    font-size: 40px;
 }
