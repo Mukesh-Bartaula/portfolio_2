@@ -56,11 +56,6 @@
 
 
 
-    .project_body p {
-        margin: auto;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 30px;
-    }
 
     /* footer */
     .card {
@@ -195,10 +190,6 @@
     margin: auto;
 }
 
-.description p {
-    text-indent: 100px;
-}
-
 .description {
     width: 100%;
     height: auto;
@@ -207,8 +198,8 @@
     line-height: 1.5;
 }
 
-.bio_table h2 {
-    text-align: left;
+.description p {
+    text-indent: 80px;
 }
 
 .bio_table tr td {
@@ -219,4 +210,10 @@
 .project_body {
     display: flex;
     min-height: 100vh;
+}
+
+.project_body p {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
