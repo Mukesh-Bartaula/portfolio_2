@@ -139,9 +139,13 @@
         margin-left: 120px;
     }
 
+    #social_media {
+        text-align: center;
+    }
+
     #social_media a i {
         font-size: 30px;
-        margin: 0 5px;
+        margin: 10px 7px;
     }
 }
 
