@@ -195,13 +195,24 @@
     margin: auto;
 }
 
+.description p {
+    text-indent: 100px;
+}
+
 .description {
     width: 100%;
     height: auto;
     padding: 20px 30px;
     text-align: justify;
-    text-indent: 100px;
     line-height: 1.5;
+}
+
+.bio_table h2 {
+    text-align: left;
+}
+
+.bio_table tr td {
+    padding-right: 15px;
 }
 
 /*projects.php*/
