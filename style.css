@@ -139,7 +139,10 @@
         margin-left: 120px;
     }
 
-
+    #social_media a i {
+        font-size: 30px;
+        margin: 0 5px;
+    }
 }
 
 .profile_container {
