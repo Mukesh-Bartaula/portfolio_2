@@ -146,6 +146,7 @@
 
 .profile_container {
     overflow: hidden;
+    margin: 50px 0;
 }
 
 .photo_bg {
@@ -210,6 +211,7 @@
 .project_body {
     display: flex;
     min-height: 100vh;
+
 }
 
 .project_body p {
