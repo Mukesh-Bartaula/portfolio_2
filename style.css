@@ -1,0 +1,232 @@
+ #navbar {
+    position: sticky;
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    margin-bottom: 40px;
+}
+#project_icon{
+    height: 20px;
+    display: inline-block;
+    
+}
+.nav-item svg{
+    fill: white;
+    
+}
+
+
+@media only screen and (min-width: 991px) {
+    .bar_logo {
+        visibility: hidden;
+
+    }
+
+    .mode {
+        width: 200px;
+    }
+
+    .form-check-label {
+        font-size: 14px;
+        width: 100px;
+    }
+
+    .profile_container {
+        margin: auto;
+        border: 1px solid rgb(58, 45, 45);
+        box-shadow: 2px 2px 10px;
+        border-radius: 15px;
+        min-height: 100vh;
+        max-height: fit-content;
+        width: 600px;
+    }
+
+    .head {
+        height: 170px;
+    }
+
+    .container-fluid {
+        justify-content: space-between;
+    }
+
+    #carouselExampleIndicators {
+        display: flex;
+        height: 40%;
+    }
+
+    .custom-center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        /* Ensures the caption takes the full height of the parent carousel item. */
+    }
+
+
+
+
+    /* footer */
+    .card {
+        margin-top: 40px;
+    }
+
+    .card-body {
+        height: 160px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card-text {
+        height: 100%;
+        width: 600px;
+        margin: auto;
+        font-size: 20px;
+    }
+
+    #social_media {
+        width: 400px;
+    }
+
+    #social_media i {
+        margin: 0 10px;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .bar_logo {
+        padding: 10px;
+        font-size: 20px;
+
+    }
+
+    .profile_container {
+        margin: auto;
+        border: 1px solid rgb(58, 45, 45);
+        box-shadow: 2px 2px 10px;
+        border-radius: 15px;
+        min-height: 100vh;
+
+    }
+
+    .photo {
+        display: flex;
+        width: 100px;
+        height: 100px;
+    }
+
+    #profile_pic {
+        width: 100%;
+        height: 100%;
+
+        border-radius: 50%;
+        border: 2px solid rgb(94, 81, 81);
+        box-shadow: 1px 1px 3px;
+    }
+
+    .card {
+        display: flex;
+        margin-top: 50px;
+
+    }
+
+    .card-text {
+        display: block;
+    }
+
+    .social_media {
+        display: grid;
+    }
+
+    .name {
+        margin-left: 120px;
+    }
+
+    #social_media {
+        text-align: center;
+    }
+
+    #social_media a i {
+        font-size: 30px;
+        margin: 10px 7px;
+    }
+}
+
+.profile_container {
+    overflow: hidden;
+}
+
+.photo_bg {
+    display: flex;
+    height: 170px;
+    width: 100%;
+    background-image: url('img/bg.webp');
+    background-size: cover;
+    /* Adjust to your preference */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.head .photo_bg p {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    size: 20px;
+    margin: auto;
+}
+
+.photo #profile_pic {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+}
+
+.photo {
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 7px;
+    display: inline-block;
+
+}
+
+.name {
+    display: flex;
+    height: 80px;
+
+}
+
+.name h2 {
+    margin: auto;
+}
+
+.description {
+    width: 100%;
+    height: auto;
+    padding: 20px 30px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.description p {
+    text-indent: 80px;
+}
+
+.bio_table tr td {
+    padding-right: 15px;
+}
+
+/*projects.php*/
+.project_body {
+    display: flex;
+    min-height: 100vh;
+
+}
+
+.project_body p {
+    display: ruby;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
