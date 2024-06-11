@@ -14,18 +14,7 @@
 .container{
     width: 100vw;
 }
-.nav-item svg{
-    fill: white;
-    
-}
 
-.toggle-off {
-    background-color: #333; /* Dark state color */
-}
-
-.toggle-on {
-    background-color: #f39c12; /* Light state color */
-}
 .darkMode i{
     font-size: 24px;
     padding-right: 60px;
@@ -41,6 +30,26 @@
 
     .mode {
         width: 200px;
+    }
+
+    .nav-item {
+        position: relative;
+    }
+    .nav-item:before{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 2px;
+        width: 100%;
+        background-color: aqua;
+        transition: 0.2;
+        border-radius: 25%;
+        transform: scaleX(0);
+    }
+    .nav-item:hover:before{
+        transform: scaleX(1);
+
     }
 
     .form-check-label {
@@ -118,7 +127,25 @@
         font-size: 20px;
 
     }
+    .dropdown-item {
+        position: relative;
+    }
+    .dropdown-item:before{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 2px;
+        width: 100%;
+        background-color: aqua;
+        transition: 0.2;
+        border-radius: 25%;
+        transform: scaleX(0);
+    }
+    .dropdown-item:hover:before{
+        transform: scaleX(1);
 
+    }
     .profile_container {
         margin: auto;
         border: 1px solid rgb(58, 45, 45);
