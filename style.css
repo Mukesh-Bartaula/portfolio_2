@@ -27,6 +27,11 @@
         visibility: hidden;
 
     }
+    .darkMode i{
+        font-size: 24px;
+        padding-right: 60px;
+        
+    }
 
     .mode {
         width: 200px;
@@ -126,6 +131,11 @@
         padding: 10px;
         font-size: 20px;
 
+    }
+    .darkMode i{
+        font-size: 24px;
+        padding-right: 30px;
+        
     }
     .dropdown-item {
         position: relative;
