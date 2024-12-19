@@ -1,11 +1,4 @@
- #navbar {
-    position: sticky;
-    display: flex;
-    width: 100%;
-    z-index: 1;
-    top: 0;
-    margin-bottom: 40px;
-}
+
 #project_icon{
     height: 20px;
     display: inline-block;
@@ -23,6 +16,14 @@
 
 
 @media only screen and (min-width: 991px) {
+    #navbar {
+        position: sticky;
+        display: flex;
+        width: 100%;
+        z-index: 1;
+        top: 0;
+        margin-bottom: 50px;
+    }
     .bar_logo {
         visibility: hidden;
 
@@ -132,6 +133,16 @@
 }
 
 @media only screen and (max-width: 990px) {
+    #navbar {
+        position: sticky;
+        display: flex;
+        height: 50px;
+        width: 100%;
+        z-index: 1;
+        top: 0;
+        margin-bottom: 20px;
+    }
+   
     .bar_logo {
         padding:0 10px;
         font-size: 20px;
