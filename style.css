@@ -133,7 +133,7 @@
 
 @media only screen and (max-width: 990px) {
     .bar_logo {
-        padding: 10px;
+        padding:0 10px;
         font-size: 20px;
 
     }
