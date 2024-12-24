@@ -145,6 +145,9 @@
         justify-content: center;
         margin: auto;
     }
+    .project_container h1{
+        display: none;
+    }
     .project_body .card{
         margin:40px  auto ;
         width: 35rem;
