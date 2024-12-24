@@ -133,6 +133,65 @@
         margin: 0 10px;
         font-size: 40px;
     }
+    
+    /*projects.php*/
+    .project_body {
+        display: flex;
+        min-height: 100vh;
+
+    }
+    .project_container{
+        width: 50vw;
+        justify-content: center;
+        margin: auto;
+    }
+    .project_body .card{
+        margin:40px  auto ;
+        width: 35rem;
+    }
+    .card .card-body{
+        margin: 0%;
+    }
+    .card-title{
+        margin: 10px;
+    }
+    .card-text{
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        
+
+    text-align: justify;
+    }
+
+    /* project detail page */
+    
+    .facultyDetailContainer{
+        width: 800px;
+        padding: 50px 0;
+        margin: auto;
+        text-align: justify;
+    }
+
+    .facultyDetailParagraph{
+        margin: 5px;
+        letter-spacing: 1px;
+    }
+    .facultyDetailParagraph img {
+        float: left;
+        width: 500px;
+        height: auto;
+        margin: 10px 20px 20px 0px;
+        
+
+    }
+    .facultyDetailParagraph p{
+        line-height: 20px;
+        
+
+    }
 }
 
 @media only screen and (max-width: 990px) {
@@ -155,8 +214,7 @@
         font-size: 24px;
         padding-right: 30px;
         
-    }
-   
+    }   
     .dropdown-item {
         position: relative;
     }
@@ -182,7 +240,6 @@
     }
     .dropdown-item.active:before {
         transform: translateX(-50%) scaleX(1);
-       
     }
     .profile_container {
         margin: auto;
@@ -190,53 +247,101 @@
         box-shadow: 2px 2px 10px;
         border-radius: 15px;
         min-height: 100vh;
-
     }
-
     .photo {
         display: flex;
         width: 100px;
         height: 100px;
     }
-
     #profile_pic {
         width: 100%;
         height: 100%;
-
         border-radius: 50%;
         border: 2px solid rgb(94, 81, 81);
         box-shadow: 1px 1px 3px;
     }
-
     .card {
         display: flex;
         margin-top: 50px;
-
     }
-
-    .card-text {
+    .profile_container .card-text {
         display: block;
     }
-
     .social_media {
         display: grid;
     }
-
     .name {
         margin-left: 120px;
     }
-
     #social_media {
         text-align: center;
     }
-
     #social_media a i {
         font-size: 30px;
         margin: 10px 7px;
     }
+    
+    /*projects.php*/
+    .project_body {
+        height: 100%;
+        width: 100%;
+        display: block;
+        overflow: hidden;
+    }
+    .project_container h1{
+        border-bottom: 3px solid rgb(44, 44, 177); /* Adjust thickness and color */
+        display: inline-block;
+        margin: 5px 40px;
+        
+    }
+    
+    .project_container{
+        justify-content: center;
+    }
+    .project_body .card{
+        margin: 20px 40px;
+    }
+    .project_body .card-text{
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        text-align: justify;
+    }
+    
+    /* project detail page */
+    
+    .facultyDetailContainer{
+        width: 80%;
+        padding: 50px 0;
+        margin: auto;
+        text-align: justify;
+        
+    }
+
+    .facultyDetailParagraph{
+        margin: auto;
+        letter-spacing: 1px;
+    }
+    .facultyDetailParagraph p{
+        display: flex;
+    }
+    .facultyDetailParagraph p img {
+        width: 100%;
+        margin: auto;
+
+    }
+    .facultyDetailParagraph p{
+        line-height: 20px;
+        
+
+    }
 }
 
 .profile_container {
+    
     overflow: hidden;
 }
 
@@ -296,18 +401,4 @@
 
 .bio_table tr td {
     padding-right: 15px;
-}
-
-/*projects.php*/
-.project_body {
-    display: flex;
-    min-height: 100vh;
-
-}
-
-.project_body p {
-    display: ruby;
-    margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
 }
